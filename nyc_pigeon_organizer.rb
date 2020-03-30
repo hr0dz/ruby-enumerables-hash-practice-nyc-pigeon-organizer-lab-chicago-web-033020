@@ -20,6 +20,7 @@ final_hash = {
     if !final_hash[name][thing].include?(detail_ab_thing)
     final_hash[name][thing] << detail_ab_thing.to_s
     end
+    binding.pry
   end
 end
 end
